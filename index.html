@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Splash Photography - Learn Photography Online.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="">
+    	<meta name="keywords" content="">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+        
+        <!-- jQuery Scripts -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.poptrox.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        
+        <!-- END jQuery Scripts -->
+        <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-97433184-1');
+    
+    
+    // BELOW BEGINS THE SMOOTH SCROLLING FUNCTIONS //
+    
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+    
+    // END THE SMOOTH SCROLLING FUNCTIONS //
+    
+        </script>
+
+		<!-- End Google Analytics -->
+        
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper" style="background-image:url(images/unsplash.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;height: ;  background-blend-mode: lighten; opacity:1.2;">
+
+				<!-- Intro -->
+					<section id="welcome" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1 style="font-family: 'Rozha One', Times New Roman, serif; line-height: normal; font-size:54px; letter-spacing:1px;">Don't wait for another opportunity.</h1>
+                            <p style="font-family:'Poppins', sans-serif; padding-top:10px; color:white; font-weight:400;">Take a shot at photography today with one of our instructors.</p>
+							<p></p>
+							<ul class="actions">
+								<li><a href="#" target="_blank" class="button special" style="margin-top:50px;font-family:'Poppins', sans-serif; color:white;">Sign Up for Classes</a></li>
+							</ul>
+						</div>
+					</section>
+
+		<!-- Footer -->
+			<footer style="margin-left:30px;padding-bottom:20px;">
+				<div class="inner">
+					<ul class="menu">
+						<li></li>
+					</ul>
+					<ul class="icons" style="float:left;">
+						<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					</ul>
+					<p style="font-family:'Poppins', sans-serif; font-size:12px; text-align:right;align-content:right;margin-right:10px!important;">Copyright <span class="icon fa-copyright"></span> 2018 Splash Photography.</p>
+				</div>
+			</footer>
+			&nbsp;
+			&nbsp;
+			&nbsp;
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
