@@ -1,4 +1,4 @@
-# Splash Photography Website Example
+# Splash Photography Website Example (<a href="https://lauramwall.github.io/Splash-Photography-Website-Example/" target="_blank">LINK</a>)
 
 An online photography school website example. Features the use of:
 
